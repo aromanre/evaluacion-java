@@ -82,5 +82,8 @@ public class Telefono implements Serializable {
     public void setUsuario(Usuario usuario) {
         this.usuario = usuario;
     }
-
+	
+	public String getUsuarioNombre(){
+		return usuario+"Anderson";
+	}
 }
